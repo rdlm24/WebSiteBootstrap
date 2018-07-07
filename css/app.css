@@ -1,0 +1,77 @@
+div{
+/* border: 1px solid black; */
+}
+body{
+  background-color: #D7481A;
+}
+
+header{
+  height: 120px;
+  padding-top: 30px;
+  background-color: white;
+}
+
+.btn-youtube{
+color: red;
+}
+.logo{
+  height: 75px;
+}
+.menu-social{
+margin-top: 50px;
+text-align: right;
+}
+
+.navbar{
+  border-radius: 0;
+}
+
+.marca{
+   border: 1px solid black;
+}
+
+.navbar-nav{
+  /*Quita el los margenes  y rellenos en el UL para que quede centrado*/
+  margin: 0;
+  padding: 0;
+  /*++++++++++++++*/
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+
+@media (max-width:767px) {
+  .menu-social{
+    text-align: center;
+    margin-top: 10px;
+    /* background-color: #D55C1F; */
+  }
+  .logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  header{
+    padding-top: 5px;
+  }
+  .navbar-nav{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+
+
+}
+
+
+/* .container{
+  border-color: red;
+} */
+
+/* *{
+
+} */
