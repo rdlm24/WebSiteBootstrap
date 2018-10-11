@@ -2,14 +2,20 @@ div{
 /* border: 1px solid black; */
 }
 body{
-  background-color: #D7481A;
+  background-color: #9B3D36;
 }
 
 header{
   height: 120px;
   padding-top: 30px;
-  background-color: white;
 }
+
+.fondo-blanco{
+    background-color: white;
+}
+/* .container{
+  max-width: 990px;
+} */
 
 .btn-youtube{
 color: red;
@@ -29,7 +35,46 @@ text-align: right;
 .marca{
    border: 1px solid black;
 }
+/* .img-responsive{
+  height: 220px;
+} */
 
+/* .contenido{
+  height: 400px;
+}
+.left-column{
+  height: 400px;
+} */
+
+.titulo{
+  margin-left: 2px;
+}
+
+.sangria{
+   text-indent: 1.5em
+ }
+.comentario{
+margin-top: 20px;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.lista-opciones{
+padding: 10px;
+}
+
+.active{
+  background-color: #E57C5B !important;
+}
+.input-group-addon{
+  background-color: white;
+  border: 0;
+  font-size: 30px;
+}
+/* .glyphicon{  
+  font-size: 30px;
+  background-color: white;
+} */
 .navbar-nav{
   /*Quita el los margenes  y rellenos en el UL para que quede centrado*/
   margin: 0;
@@ -62,8 +107,9 @@ text-align: right;
     flex-wrap: nowrap;
     align-items: center;
   }
-
-
+  .titulo{
+    text-align: center;
+  }
 
 }
 
